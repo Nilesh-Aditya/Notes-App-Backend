@@ -18,15 +18,9 @@ $ npm start
 
 ---
 
-### 3. start the client
-
-```bash
-$ npm run client
-```
-
 > ### Visit [localhost:4000](https://localhost:4000) to see the Backend-App in Action
 
 ---
 
-| !! Set your mongoURI (dbURI) and SecretKey (SECRET_KEY) if you are ruuning this app locally  |
+| !! Set your mongoURI (dbURI) and SecretKey (SECRET_KEY) if you are runing this app locally in .env file |
 |-----------------------------------------------------------------------|
