@@ -4,7 +4,6 @@ const { RegisterNewUser, UserLogin } = require("../../controllers/auth");
 
 
 route.post("/signup", [
-    check('name','Field is Required').not().isEmpty(),
     check('email','Field is Required').isEmail(),
     check('password','Password must be of at least of 6 characters').isLength({min:6})
 ], RegisterNewUser);
