@@ -3,7 +3,7 @@ const { userAuth: User } = require("../models/auth");
 
 function ValidateUserEmail (req, res, next) {
     // Get token from header
-    const token = req.cookies.jwt;
+    const token = req?.cookies?.jwt;
 
     // Check if not token
     if (!token) {

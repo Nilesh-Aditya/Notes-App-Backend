@@ -43,7 +43,7 @@ async function CreateNewNote (req, res, next) {
             content,
             author: req.user_id
         });
-        return res.status(200).json({ msg: "Note has been added successfully" });
+        return res.status(200).json({ ...newNote, msg: "Note has been added successfully" });
     } 
     catch (error) {
         console.error(error);
