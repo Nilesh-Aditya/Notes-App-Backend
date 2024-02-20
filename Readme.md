@@ -1,4 +1,6 @@
-# Speer Backend Assessment
+# Notes APP Backend
+
+<p> This backend application is developed using Express.js and MongoDB, focusing on a note-searching feature. It incorporates indexing to enhance search functionality, making it more efficient. Authorized users have the ability to perform CRUD operations, including adding, updating, and deleting notes. Additionally, users can share notes with others, adding a collaborative aspect to the app. Overall, it's a comprehensive backend solution for managing and sharing notes efficiently. </p>
 
 # Available Scripts
 
